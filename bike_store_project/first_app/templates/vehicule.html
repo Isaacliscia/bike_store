@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Vehicules</title>
+</head>
+<body>
+<a href="/first_app"> Menu
+</a>
+​
+ <h1>This is our vehicules</h1>
+
+ {% for vehicules in vehicule %}
+ <a href="/first_app/vehicule/vehicule_info/{{vehicules.id}}"> Vehicule Type : {{vehicules.vehicule_type}}
+ </a>
+
+ <p>{{vehicules.vehicule_type}}</p>
+ <p>{{vehicules.vehicule_size}}</p>
+ <p>{{vehicules.real_cost}}</p>
+ <p>{{vehicules.size}}</p>
+
+​ {% endfor %}
+
+</body>
+</html>

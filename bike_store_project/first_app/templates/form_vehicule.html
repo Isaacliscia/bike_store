@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Customer Details</title>
+</head>
+<body>
+<a href="/first_app"> Menu
+</a>
+	​<h1>New Customer Details </h1>
+	<h2>Welcome, give us your informations</h2>
+	<form method="POST">
+		{{form.as_p}}
+		<input type="submit" name="send" value="Submit">
+		{% csrf_token %}
+	</form>
+	​
+</body>
+</html>

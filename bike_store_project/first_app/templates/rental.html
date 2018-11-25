@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Customers</title>
+</head>
+<body>
+<a href="/first_app"> Menu
+</a>
+​
+ <h1>This is rent</h1>
+
+ {% for last_returns in rentals %}
+ <a href="/first_app/rental/rental_info/{{last_returns.id}}"> 
+ 	Rental of  : {{last_returns.customer}}
+ </a>
+
+ 
+ <p> ------------------ </p>
+ 
+​ {% endfor %}
+
+</body>
+</html>

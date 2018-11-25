@@ -1,0 +1,16 @@
+
+h3 {
+	color: blue;
+}
+
+a {
+	color: red;
+}
+
+.container {
+	empty-cells: : h1;
+}
+
+h1 {
+	color: red;
+}

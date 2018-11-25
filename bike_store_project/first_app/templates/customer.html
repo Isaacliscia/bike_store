@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Customers</title>
+</head>
+<body>
+​<a href="/first_app"> Menu
+</a>
+ <h1>This is our customers</h1>
+
+ {% for customers in customer %}
+ <a href="{% url 'customer_info' customers.id %}"> Customer first name : {{customers.first_name}}
+ </a>
+
+ <p>{{customers.first_name}}</p>
+ <p>{{customers.last_name}}</p>
+
+
+​ {% endfor %}
+
+</body>
+</html>
