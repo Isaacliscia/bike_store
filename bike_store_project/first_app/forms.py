@@ -17,3 +17,4 @@ class NewVehiculeForm(forms.ModelForm):
 		model = Vehicule 
 		fields = '__all__'
 
+#hello la fami
